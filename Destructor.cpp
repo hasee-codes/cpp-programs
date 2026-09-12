@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+class Student
+{
+public:
+    Student()
+    {
+        cout << "Constructor called" << endl;
+    }
+
+    ~Student()
+    {
+        cout << "Destructor called" << endl;
+    }
+};
+
+int main()
+{
+    Student s;
+
+    cout << "Student object is created" << endl;
+
+    return 0;
+}
